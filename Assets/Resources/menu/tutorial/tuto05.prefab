@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1867481071282081}
+  m_IsPrefabParent: 1
+--- !u!1 &1867481071282081
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4455316897814807}
+  - component: {fileID: 114200816313776799}
+  m_Layer: 8
+  m_Name: tuto05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4455316897814807
+Transform:
+  m_GameObject: {fileID: 1867481071282081}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -42, y: -101, z: 0}
+  m_LocalScale: {x: 724, y: 570, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114200816313776799
+MonoBehaviour:
+  m_GameObject: {fileID: 1867481071282081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c060c8f404020d943920ee21ca9be35e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 4316f862ee341154daaef849bb91b924, type: 2}
+  mTex: {fileID: 2800000, guid: f797a0311b1a54f46905abb40b00330f, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 0
+  mDepth: 14
+  mAtlas: {fileID: 114545130504996641, guid: 33108350ff64dcb42877f80ba9a94999, type: 2}
+  mSpriteName: tuto05
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0

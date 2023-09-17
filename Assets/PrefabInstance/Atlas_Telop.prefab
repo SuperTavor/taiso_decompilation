@@ -1,0 +1,336 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1665374626858445}
+  m_IsPrefabParent: 1
+--- !u!1 &1665374626858445
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4625173497670546}
+  - component: {fileID: 114733995996791615}
+  m_Layer: 0
+  m_Name: Atlas_Telop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4625173497670546
+Transform:
+  m_GameObject: {fileID: 1665374626858445}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114733995996791615
+MonoBehaviour:
+  m_GameObject: {fileID: 1665374626858445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19ab7038ea42d14bb3dfe30759bf6a0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: b93aaf17493223e4c9a6c10319445ab3, type: 2}
+  sprites:
+  - name: telop_change
+    outer:
+      serializedVersion: 2
+      x: 558
+      y: 1358
+      width: 286
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 558
+      y: 1358
+      width: 286
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: telop_clear
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1665
+      width: 524
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1665
+      width: 524
+      height: 144
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: telop_miss
+    outer:
+      serializedVersion: 2
+      x: 305
+      y: 1487
+      width: 393
+      height: 177
+    inner:
+      serializedVersion: 2
+      x: 305
+      y: 1487
+      width: 393
+      height: 177
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: telop_ready
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1330
+      width: 557
+      height: 95
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1330
+      width: 557
+      height: 95
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: telop_start
+    outer:
+      serializedVersion: 2
+      x: 699
+      y: 1574
+      width: 316
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 699
+      y: 1574
+      width: 316
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: telop_end
+    outer:
+      serializedVersion: 2
+      x: 699
+      y: 1484
+      width: 316
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 699
+      y: 1484
+      width: 316
+      height: 89
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_banner2_off
+    outer:
+      serializedVersion: 2
+      x: 934
+      y: 1980
+      width: 68
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 964
+      y: 2010
+      width: 8
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_banner2_on
+    outer:
+      serializedVersion: 2
+      x: 934
+      y: 1911
+      width: 68
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 964
+      y: 1941
+      width: 8
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: telop_song2
+    outer:
+      serializedVersion: 2
+      x: 525
+      y: 1688
+      width: 332
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 525
+      y: 1688
+      width: 332
+      height: 121
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: telop_song3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1208
+      width: 332
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1208
+      width: 332
+      height: 121
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_banner2_img
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1810
+      width: 628
+      height: 238
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1810
+      width: 628
+      height: 238
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: telop_song4
+    outer:
+      serializedVersion: 2
+      x: 333
+      y: 1208
+      width: 332
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 333
+      y: 1208
+      width: 332
+      height: 121
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: telop_song1
+    outer:
+      serializedVersion: 2
+      x: 666
+      y: 1208
+      width: 332
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 666
+      y: 1208
+      width: 332
+      height: 121
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: telop_song_line
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1129
+      width: 480
+      height: 78
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1129
+      width: 480
+      height: 78
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_banner2_s_wf_img
+    outer:
+      serializedVersion: 2
+      x: 629
+      y: 1810
+      width: 304
+      height: 238
+    inner:
+      serializedVersion: 2
+      x: 629
+      y: 1810
+      width: 304
+      height: 238
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_banner2_s_img
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1426
+      width: 304
+      height: 238
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1426
+      width: 304
+      height: 238
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

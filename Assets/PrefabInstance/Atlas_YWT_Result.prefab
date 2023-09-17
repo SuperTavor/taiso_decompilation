@@ -1,0 +1,570 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1934283656690332}
+  m_IsPrefabParent: 1
+--- !u!1 &1934283656690332
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4734961529927371}
+  - component: {fileID: 114744644428209899}
+  m_Layer: 0
+  m_Name: Atlas_YWT_Result
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4734961529927371
+Transform:
+  m_GameObject: {fileID: 1934283656690332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114744644428209899
+MonoBehaviour:
+  m_GameObject: {fileID: 1934283656690332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19ab7038ea42d14bb3dfe30759bf6a0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: de28f7a360e32cd4c9f97ed7620d2871, type: 2}
+  sprites:
+  - name: clear_icon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 675
+      width: 114
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 675
+      width: 114
+      height: 114
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gscore3
+    outer:
+      serializedVersion: 2
+      x: 276
+      y: 691
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 276
+      y: 691
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gscore9
+    outer:
+      serializedVersion: 2
+      x: 452
+      y: 740
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 452
+      y: 740
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gscore5
+    outer:
+      serializedVersion: 2
+      x: 452
+      y: 690
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 452
+      y: 690
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gscore0
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 550
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 550
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gscore2
+    outer:
+      serializedVersion: 2
+      x: 60
+      y: 550
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 60
+      y: 550
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gscore8
+    outer:
+      serializedVersion: 2
+      x: 120
+      y: 550
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 120
+      y: 550
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gscore7
+    outer:
+      serializedVersion: 2
+      x: 180
+      y: 550
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 180
+      y: 550
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gscore6
+    outer:
+      serializedVersion: 2
+      x: 240
+      y: 550
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 240
+      y: 550
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gscore1
+    outer:
+      serializedVersion: 2
+      x: 300
+      y: 550
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 300
+      y: 550
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gscore4
+    outer:
+      serializedVersion: 2
+      x: 360
+      y: 550
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 360
+      y: 550
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_retry
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 790
+      width: 377
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 790
+      width: 377
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_ranking
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 639
+      width: 260
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 639
+      width: 260
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_best_score01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 600
+      width: 171
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 600
+      width: 171
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: result_bg
+    outer:
+      serializedVersion: 2
+      x: 411
+      y: 705
+      width: 40
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 428
+      y: 721
+      width: 6
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_result_title00
+    outer:
+      serializedVersion: 2
+      x: 290
+      y: 969
+      width: 175
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 290
+      y: 969
+      width: 175
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: result_titlebar
+    outer:
+      serializedVersion: 2
+      x: 115
+      y: 741
+      width: 226
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 115
+      y: 741
+      width: 226
+      height: 48
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_best_score00
+    outer:
+      serializedVersion: 2
+      x: 172
+      y: 600
+      width: 171
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 172
+      y: 600
+      width: 171
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_sub_result
+    outer:
+      serializedVersion: 2
+      x: 165
+      y: 900
+      width: 336
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 165
+      y: 900
+      width: 336
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_result_title01
+    outer:
+      serializedVersion: 2
+      x: 115
+      y: 686
+      width: 160
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 115
+      y: 686
+      width: 160
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: score_icon2
+    outer:
+      serializedVersion: 2
+      x: 261
+      y: 645
+      width: 86
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 261
+      y: 645
+      width: 86
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gscore_icon00
+    outer:
+      serializedVersion: 2
+      x: 466
+      y: 975
+      width: 43
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 466
+      y: 975
+      width: 43
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gscore_icon01
+    outer:
+      serializedVersion: 2
+      x: 378
+      y: 800
+      width: 103
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 378
+      y: 800
+      width: 103
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gscore_line_p1
+    outer:
+      serializedVersion: 2
+      x: 290
+      y: 964
+      width: 8
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 290
+      y: 964
+      width: 8
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: new_record
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 836
+      width: 164
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 836
+      width: 164
+      height: 105
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gscore_line_p2
+    outer:
+      serializedVersion: 2
+      x: 342
+      y: 719
+      width: 68
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 342
+      y: 719
+      width: 68
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: subtitle
+    outer:
+      serializedVersion: 2
+      x: 165
+      y: 847
+      width: 256
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 291
+      y: 847
+      width: 4
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: result_line_bg
+    outer:
+      serializedVersion: 2
+      x: 422
+      y: 840
+      width: 64
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 422
+      y: 840
+      width: 64
+      height: 59
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.08474576
+    paddingBottom: 0
+  - name: txt_open_newmode
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 942
+      width: 289
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 942
+      width: 289
+      height: 82
+    rotated: 0
+    paddingLeft: 0.01730104
+    paddingRight: 0.006920415
+    paddingTop: 0.01219512
+    paddingBottom: 0.03658536
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

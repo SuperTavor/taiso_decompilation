@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1855494217042145}
+  m_IsPrefabParent: 1
+--- !u!1 &1855494217042145
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4631252193189795}
+  - component: {fileID: 114845492158600484}
+  - component: {fileID: 114302236933979037}
+  - component: {fileID: 114866387289743186}
+  - component: {fileID: 114099430647461669}
+  m_Layer: 12
+  m_Name: Heart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4631252193189795
+Transform:
+  m_GameObject: {fileID: 1855494217042145}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
+  m_LocalScale: {x: 104, y: 95, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114845492158600484
+MonoBehaviour:
+  m_GameObject: {fileID: 1855494217042145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c060c8f404020d943920ee21ca9be35e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 484a50e86cbe5f645a8cde1998665006, type: 2}
+  mTex: {fileID: 2800000, guid: 37f6ac414972abc42adc4c1917521120, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 15
+  mAtlas: {fileID: 114925189408840177, guid: 505a293f53746394ebaa9ec57571fdd2, type: 2}
+  mSpriteName: eff_heart0
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+--- !u!114 &114302236933979037
+MonoBehaviour:
+  m_GameObject: {fileID: 1855494217042145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77f948f2c15a8f44b68b0eecc59872a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_tween_scl: {fileID: 114866387289743186}
+  m_tween_alp: {fileID: 114099430647461669}
+  m_sprite: {fileID: 114845492158600484}
+--- !u!114 &114866387289743186
+MonoBehaviour:
+  m_GameObject: {fileID: 1855494217042145}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c875b78400258744eadb3e40882601d6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  method: 0
+  style: 0
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 3.07992
+      outSlope: 3.07992
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1.179638E-06
+      outSlope: 1.179638E-06
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  ignoreTimeScale: 0
+  delay: 0
+  duration: 0.3
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 1855494217042145}
+  callWhenFinished: EffectEnd
+  from: {x: 104, y: 95, z: 1}
+  to: {x: 200, y: 180, z: 1}
+  updateTable: 0
+--- !u!114 &114099430647461669
+MonoBehaviour:
+  m_GameObject: {fileID: 1855494217042145}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90025a41dec8ba488c93fe484a70fcb, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  method: 0
+  style: 0
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 0.3
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished:
+  from: 1
+  to: 0

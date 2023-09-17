@@ -1,0 +1,2352 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1216692554201967}
+  m_IsPrefabParent: 1
+--- !u!1 &1216692554201967
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4448276552052502}
+  - component: {fileID: 114925189408840177}
+  m_Layer: 0
+  m_Name: Atlas_Puzzle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4448276552052502
+Transform:
+  m_GameObject: {fileID: 1216692554201967}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114925189408840177
+MonoBehaviour:
+  m_GameObject: {fileID: 1216692554201967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19ab7038ea42d14bb3dfe30759bf6a0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 484a50e86cbe5f645a8cde1998665006, type: 2}
+  sprites:
+  - name: song070
+    outer:
+      serializedVersion: 2
+      x: 1629
+      y: 780
+      width: 355
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 1629
+      y: 780
+      width: 355
+      height: 37
+    rotated: 0
+    paddingLeft: 0.4028169
+    paddingRight: 0.4
+    paddingTop: 0.5675676
+    paddingBottom: 0.1621622
+  - name: song030
+    outer:
+      serializedVersion: 2
+      x: 649
+      y: 906
+      width: 531
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 906
+      width: 531
+      height: 53
+    rotated: 0
+    paddingLeft: 0.1035782
+    paddingRight: 0.1016949
+    paddingTop: 0.09433962
+    paddingBottom: 0.1132075
+  - name: score8
+    outer:
+      serializedVersion: 2
+      x: 1065
+      y: 175
+      width: 49
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1065
+      y: 175
+      width: 49
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song310
+    outer:
+      serializedVersion: 2
+      x: 649
+      y: 270
+      width: 321
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 270
+      width: 321
+      height: 53
+    rotated: 0
+    paddingLeft: 0.4984424
+    paddingRight: 0.4953271
+    paddingTop: 0.09433962
+    paddingBottom: 0.1132075
+  - name: score_icon1
+    outer:
+      serializedVersion: 2
+      x: 317
+      y: 134
+      width: 41
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 317
+      y: 134
+      width: 41
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hp_bar
+    outer:
+      serializedVersion: 2
+      x: 144
+      y: 13
+      width: 12
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 145
+      y: 13
+      width: 10
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song180
+    outer:
+      serializedVersion: 2
+      x: 1538
+      y: 485
+      width: 146
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 1538
+      y: 485
+      width: 146
+      height: 54
+    rotated: 0
+    paddingLeft: 1.70548
+    paddingRight: 1.678082
+    paddingTop: 0.09259259
+    paddingBottom: 0.09259259
+  - name: song_icon
+    outer:
+      serializedVersion: 2
+      x: 609
+      y: 4
+      width: 34
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 609
+      y: 4
+      width: 34
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop210
+    outer:
+      serializedVersion: 2
+      x: 1125
+      y: 289
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1125
+      y: 289
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song010
+    outer:
+      serializedVersion: 2
+      x: 1125
+      y: 818
+      width: 585
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 1125
+      y: 818
+      width: 585
+      height: 34
+    rotated: 0
+    paddingLeft: 0.04786325
+    paddingRight: 0.04615385
+    paddingTop: 0.6764706
+    paddingBottom: 0.2058824
+  - name: song480
+    outer:
+      serializedVersion: 2
+      x: 794
+      y: 14
+      width: 206
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 794
+      y: 14
+      width: 206
+      height: 38
+    rotated: 0
+    paddingLeft: 1.063107
+    paddingRight: 1.043689
+    paddingTop: 0.5526316
+    paddingBottom: 0.131579
+  - name: drop410
+    outer:
+      serializedVersion: 2
+      x: 1125
+      y: 197
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1125
+      y: 197
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song110
+    outer:
+      serializedVersion: 2
+      x: 1681
+      y: 906
+      width: 355
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 1681
+      y: 906
+      width: 355
+      height: 53
+    rotated: 0
+    paddingLeft: 0.4028169
+    paddingRight: 0.4
+    paddingTop: 0.09433962
+    paddingBottom: 0.1132075
+  - name: song090
+    outer:
+      serializedVersion: 2
+      x: 1181
+      y: 906
+      width: 499
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 1181
+      y: 906
+      width: 499
+      height: 53
+    rotated: 0
+    paddingLeft: 0.1402806
+    paddingRight: 0.1422846
+    paddingTop: 0.09433962
+    paddingBottom: 0.1132075
+  - name: timeline_start
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 5
+      width: 64
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 5
+      width: 64
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song160
+    outer:
+      serializedVersion: 2
+      x: 1791
+      y: 540
+      width: 162
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 1791
+      y: 540
+      width: 162
+      height: 36
+    rotated: 0
+    paddingLeft: 1.481481
+    paddingRight: 1.469136
+    paddingTop: 0.6111111
+    paddingBottom: 0.1666667
+  - name: drop420
+    outer:
+      serializedVersion: 2
+      x: 1229
+      y: 297
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1229
+      y: 297
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: timeline_goal
+    outer:
+      serializedVersion: 2
+      x: 65
+      y: 5
+      width: 56
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 65
+      y: 5
+      width: 56
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: score6
+    outer:
+      serializedVersion: 2
+      x: 1059
+      y: 120
+      width: 49
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1059
+      y: 120
+      width: 49
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song140
+    outer:
+      serializedVersion: 2
+      x: 1538
+      y: 540
+      width: 252
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 1538
+      y: 540
+      width: 252
+      height: 36
+    rotated: 0
+    paddingLeft: 0.7698413
+    paddingRight: 0.7698413
+    paddingTop: 0.6111111
+    paddingBottom: 0.1666667
+  - name: score7
+    outer:
+      serializedVersion: 2
+      x: 1961
+      y: 865
+      width: 49
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1961
+      y: 865
+      width: 49
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song020
+    outer:
+      serializedVersion: 2
+      x: 649
+      y: 378
+      width: 472
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 378
+      width: 472
+      height: 38
+    rotated: 0
+    paddingLeft: 0.1779661
+    paddingRight: 0.1779661
+    paddingTop: 0.5526316
+    paddingBottom: 0.131579
+  - name: song060
+    outer:
+      serializedVersion: 2
+      x: 1685
+      y: 502
+      width: 207
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 1685
+      y: 502
+      width: 207
+      height: 37
+    rotated: 0
+    paddingLeft: 1.043478
+    paddingRight: 1.048309
+    paddingTop: 0.5675676
+    paddingBottom: 0.1621622
+  - name: drop220
+    outer:
+      serializedVersion: 2
+      x: 1334
+      y: 485
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1334
+      y: 485
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song000
+    outer:
+      serializedVersion: 2
+      x: 1538
+      y: 448
+      width: 159
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 1538
+      y: 448
+      width: 159
+      height: 36
+    rotated: 0
+    paddingLeft: 1.509434
+    paddingRight: 1.515723
+    paddingTop: 0.6111111
+    paddingBottom: 0.1666667
+  - name: score_icon0
+    outer:
+      serializedVersion: 2
+      x: 317
+      y: 93
+      width: 37
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 317
+      y: 93
+      width: 37
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: timeline_icon
+    outer:
+      serializedVersion: 2
+      x: 317
+      y: 214
+      width: 44
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 317
+      y: 214
+      width: 44
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song080
+    outer:
+      serializedVersion: 2
+      x: 1602
+      y: 867
+      width: 358
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 1602
+      y: 867
+      width: 358
+      height: 38
+    rotated: 0
+    paddingLeft: 0.3938547
+    paddingRight: 0.3938547
+    paddingTop: 0.5526316
+    paddingBottom: 0.131579
+  - name: song130
+    outer:
+      serializedVersion: 2
+      x: 649
+      y: 584
+      width: 384
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 584
+      width: 384
+      height: 53
+    rotated: 0
+    paddingLeft: 0.3333333
+    paddingRight: 0.3333333
+    paddingTop: 0.09433962
+    paddingBottom: 0.1132075
+  - name: timeline_base
+    outer:
+      serializedVersion: 2
+      x: 1581
+      y: 670
+      width: 460
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 1581
+      y: 670
+      width: 460
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song040
+    outer:
+      serializedVersion: 2
+      x: 131
+      y: 26
+      width: 177
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 131
+      y: 26
+      width: 177
+      height: 54
+    rotated: 0
+    paddingLeft: 1.305085
+    paddingRight: 1.310735
+    paddingTop: 0.09259259
+    paddingBottom: 0.09259259
+  - name: song280
+    outer:
+      serializedVersion: 2
+      x: 794
+      y: 53
+      width: 240
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 794
+      y: 53
+      width: 240
+      height: 53
+    rotated: 0
+    paddingLeft: 0.8416666
+    paddingRight: 0.825
+    paddingTop: 0.1132075
+    paddingBottom: 0.09433962
+  - name: song410
+    outer:
+      serializedVersion: 2
+      x: 649
+      y: 960
+      width: 640
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 960
+      width: 640
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song220
+    outer:
+      serializedVersion: 2
+      x: 649
+      y: 798
+      width: 461
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 798
+      width: 461
+      height: 53
+    rotated: 0
+    paddingLeft: 0.1952278
+    paddingRight: 0.1930586
+    paddingTop: 0.1132075
+    paddingBottom: 0.09433962
+  - name: drop110
+    outer:
+      serializedVersion: 2
+      x: 1334
+      y: 117
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1334
+      y: 117
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song320
+    outer:
+      serializedVersion: 2
+      x: 649
+      y: 745
+      width: 461
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 745
+      width: 461
+      height: 52
+    rotated: 0
+    paddingLeft: 0.1952278
+    paddingRight: 0.1930586
+    paddingTop: 0.1153846
+    paddingBottom: 0.1153846
+  - name: btn_pause_off
+    outer:
+      serializedVersion: 2
+      x: 1436
+      y: 42
+      width: 72
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 1436
+      y: 42
+      width: 72
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: score9
+    outer:
+      serializedVersion: 2
+      x: 309
+      y: 40
+      width: 49
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 309
+      y: 40
+      width: 49
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop200
+    outer:
+      serializedVersion: 2
+      x: 1436
+      y: 577
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1436
+      y: 577
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop100
+    outer:
+      serializedVersion: 2
+      x: 1640
+      y: 577
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1640
+      y: 577
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hp_base
+    outer:
+      serializedVersion: 2
+      x: 1125
+      y: 707
+      width: 530
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 1125
+      y: 707
+      width: 530
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop320
+    outer:
+      serializedVersion: 2
+      x: 1742
+      y: 577
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1742
+      y: 577
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song420
+    outer:
+      serializedVersion: 2
+      x: 1125
+      y: 740
+      width: 491
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 1125
+      y: 740
+      width: 491
+      height: 38
+    rotated: 0
+    paddingLeft: 0.1527495
+    paddingRight: 0.1507128
+    paddingTop: 0.5263158
+    paddingBottom: 0.1578947
+  - name: drop020
+    outer:
+      serializedVersion: 2
+      x: 1844
+      y: 577
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1844
+      y: 577
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop010
+    outer:
+      serializedVersion: 2
+      x: 1436
+      y: 117
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1436
+      y: 117
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: score2
+    outer:
+      serializedVersion: 2
+      x: 1033
+      y: 337
+      width: 49
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1033
+      y: 337
+      width: 49
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop310
+    outer:
+      serializedVersion: 2
+      x: 1125
+      y: 473
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1125
+      y: 473
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song400
+    outer:
+      serializedVersion: 2
+      x: 649
+      y: 417
+      width: 374
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 417
+      width: 374
+      height: 52
+    rotated: 0
+    paddingLeft: 0.3582888
+    paddingRight: 0.3529412
+    paddingTop: 0.1153846
+    paddingBottom: 0.1153846
+  - name: score1
+    outer:
+      serializedVersion: 2
+      x: 649
+      y: 7
+      width: 49
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 7
+      width: 49
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop300
+    outer:
+      serializedVersion: 2
+      x: 1125
+      y: 381
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1125
+      y: 381
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song200
+    outer:
+      serializedVersion: 2
+      x: 649
+      y: 692
+      width: 409
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 692
+      width: 409
+      height: 52
+    rotated: 0
+    paddingLeft: 0.2836186
+    paddingRight: 0.2811736
+    paddingTop: 0.1153846
+    paddingBottom: 0.1153846
+  - name: song150
+    outer:
+      serializedVersion: 2
+      x: 1125
+      y: 669
+      width: 455
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 1125
+      y: 669
+      width: 455
+      height: 37
+    rotated: 0
+    paddingLeft: 0.2043956
+    paddingRight: 0.2021978
+    paddingTop: 0.5945946
+    paddingBottom: 0.1351351
+  - name: song120
+    outer:
+      serializedVersion: 2
+      x: 649
+      y: 470
+      width: 370
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 470
+      width: 370
+      height: 53
+    rotated: 0
+    paddingLeft: 0.3675676
+    paddingRight: 0.3621622
+    paddingTop: 0.09433962
+    paddingBottom: 0.1132075
+  - name: song170
+    outer:
+      serializedVersion: 2
+      x: 794
+      y: 216
+      width: 289
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 794
+      y: 216
+      width: 289
+      height: 53
+    rotated: 0
+    paddingLeft: 0.6089965
+    paddingRight: 0.6055363
+    paddingTop: 0.09433962
+    paddingBottom: 0.1132075
+  - name: score4
+    outer:
+      serializedVersion: 2
+      x: 971
+      y: 283
+      width: 49
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 971
+      y: 283
+      width: 49
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song430
+    outer:
+      serializedVersion: 2
+      x: 1125
+      y: 779
+      width: 503
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 1125
+      y: 779
+      width: 503
+      height: 38
+    rotated: 0
+    paddingLeft: 0.1351889
+    paddingRight: 0.1371769
+    paddingTop: 0.5263158
+    paddingBottom: 0.1578947
+  - name: scroll_bg
+    outer:
+      serializedVersion: 2
+      x: 511
+      y: 390
+      width: 114
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 511
+      y: 390
+      width: 114
+      height: 112
+    rotated: 0
+    paddingLeft: 0.07017544
+    paddingRight: 0.05263158
+    paddingTop: 0.07142857
+    paddingBottom: 0.07142857
+  - name: score0
+    outer:
+      serializedVersion: 2
+      x: 1021
+      y: 283
+      width: 49
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1021
+      y: 283
+      width: 49
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song210
+    outer:
+      serializedVersion: 2
+      x: 1617
+      y: 741
+      width: 354
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 1617
+      y: 741
+      width: 354
+      height: 37
+    rotated: 0
+    paddingLeft: 0.4039548
+    paddingRight: 0.4039548
+    paddingTop: 0.5675676
+    paddingBottom: 0.1621622
+  - name: score3
+    outer:
+      serializedVersion: 2
+      x: 1071
+      y: 283
+      width: 49
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1071
+      y: 283
+      width: 49
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song050
+    outer:
+      serializedVersion: 2
+      x: 794
+      y: 107
+      width: 264
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 794
+      y: 107
+      width: 264
+      height: 53
+    rotated: 0
+    paddingLeft: 0.7121212
+    paddingRight: 0.7121212
+    paddingTop: 0.09433962
+    paddingBottom: 0.1132075
+  - name: song100
+    outer:
+      serializedVersion: 2
+      x: 649
+      y: 324
+      width: 323
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 324
+      width: 323
+      height: 53
+    rotated: 0
+    paddingLeft: 0.4922601
+    paddingRight: 0.4891641
+    paddingTop: 0.09433962
+    paddingBottom: 0.1132075
+  - name: song380
+    outer:
+      serializedVersion: 2
+      x: 794
+      y: 161
+      width: 270
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 794
+      y: 161
+      width: 270
+      height: 54
+    rotated: 0
+    paddingLeft: 0.6925926
+    paddingRight: 0.6777778
+    paddingTop: 0.09259259
+    paddingBottom: 0.09259259
+  - name: drop120
+    outer:
+      serializedVersion: 2
+      x: 1334
+      y: 25
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1334
+      y: 25
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hp_red
+    outer:
+      serializedVersion: 2
+      x: 131
+      y: 13
+      width: 12
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 131
+      y: 13
+      width: 12
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop000
+    outer:
+      serializedVersion: 2
+      x: 1334
+      y: 301
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1334
+      y: 301
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song_base
+    outer:
+      serializedVersion: 2
+      x: 1290
+      y: 976
+      width: 636
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 1290
+      y: 976
+      width: 636
+      height: 48
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop400
+    outer:
+      serializedVersion: 2
+      x: 1229
+      y: 389
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1229
+      y: 389
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song300
+    outer:
+      serializedVersion: 2
+      x: 649
+      y: 638
+      width: 385
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 638
+      width: 385
+      height: 53
+    rotated: 0
+    paddingLeft: 0.3324675
+    paddingRight: 0.3298701
+    paddingTop: 0.09433962
+    paddingBottom: 0.1132075
+  - name: score5
+    outer:
+      serializedVersion: 2
+      x: 699
+      y: 7
+      width: 49
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 699
+      y: 7
+      width: 49
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop030
+    outer:
+      serializedVersion: 2
+      x: 649
+      y: 152
+      width: 144
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 152
+      width: 144
+      height: 117
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop230
+    outer:
+      serializedVersion: 2
+      x: 366
+      y: 267
+      width: 144
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 366
+      y: 267
+      width: 144
+      height: 117
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop130
+    outer:
+      serializedVersion: 2
+      x: 366
+      y: 31
+      width: 144
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 366
+      y: 31
+      width: 144
+      height: 117
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop430
+    outer:
+      serializedVersion: 2
+      x: 366
+      y: 149
+      width: 144
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 366
+      y: 149
+      width: 144
+      height: 117
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop330
+    outer:
+      serializedVersion: 2
+      x: 366
+      y: 385
+      width: 144
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 366
+      y: 385
+      width: 144
+      height: 117
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: game_base
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 503
+      width: 648
+      height: 521
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 503
+      width: 648
+      height: 521
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop_eff_b0
+    outer:
+      serializedVersion: 2
+      x: 1035
+      y: 25
+      width: 78
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 1035
+      y: 25
+      width: 78
+      height: 81
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop001
+    outer:
+      serializedVersion: 2
+      x: 1125
+      y: 105
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1125
+      y: 105
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop301
+    outer:
+      serializedVersion: 2
+      x: 1125
+      y: 13
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1125
+      y: 13
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop002
+    outer:
+      serializedVersion: 2
+      x: 1229
+      y: 481
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1229
+      y: 481
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop_eff_a0
+    outer:
+      serializedVersion: 2
+      x: 1125
+      y: 565
+      width: 103
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 1125
+      y: 565
+      width: 103
+      height: 103
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop_eff_a3
+    outer:
+      serializedVersion: 2
+      x: 511
+      y: 281
+      width: 103
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 511
+      y: 281
+      width: 103
+      height: 103
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop_eff_a2
+    outer:
+      serializedVersion: 2
+      x: 511
+      y: 163
+      width: 103
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 511
+      y: 163
+      width: 103
+      height: 103
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop401
+    outer:
+      serializedVersion: 2
+      x: 1229
+      y: 205
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1229
+      y: 205
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop202
+    outer:
+      serializedVersion: 2
+      x: 1229
+      y: 113
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1229
+      y: 113
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop201
+    outer:
+      serializedVersion: 2
+      x: 1229
+      y: 21
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1229
+      y: 21
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop402
+    outer:
+      serializedVersion: 2
+      x: 1334
+      y: 577
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1334
+      y: 577
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop_eff_a4
+    outer:
+      serializedVersion: 2
+      x: 511
+      y: 45
+      width: 103
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 511
+      y: 45
+      width: 103
+      height: 103
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop102
+    outer:
+      serializedVersion: 2
+      x: 1334
+      y: 393
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1334
+      y: 393
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop_eff_a1
+    outer:
+      serializedVersion: 2
+      x: 649
+      y: 48
+      width: 103
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 48
+      width: 103
+      height: 103
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop101
+    outer:
+      serializedVersion: 2
+      x: 1334
+      y: 209
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1334
+      y: 209
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop302
+    outer:
+      serializedVersion: 2
+      x: 1538
+      y: 577
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1538
+      y: 577
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: white
+    outer:
+      serializedVersion: 2
+      x: 122
+      y: 17
+      width: 8
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 122
+      y: 17
+      width: 8
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: eff_heart0
+    outer:
+      serializedVersion: 2
+      x: 1229
+      y: 573
+      width: 104
+      height: 95
+    inner:
+      serializedVersion: 2
+      x: 1229
+      y: 573
+      width: 104
+      height: 95
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: combo9
+    outer:
+      serializedVersion: 2
+      x: 1020
+      y: 474
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 1020
+      y: 474
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: combo6
+    outer:
+      serializedVersion: 2
+      x: 1024
+      y: 420
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 1024
+      y: 420
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: combo4
+    outer:
+      serializedVersion: 2
+      x: 1927
+      y: 975
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 1927
+      y: 975
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: combo1
+    outer:
+      serializedVersion: 2
+      x: 1987
+      y: 975
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 1987
+      y: 975
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: combo3
+    outer:
+      serializedVersion: 2
+      x: 1059
+      y: 695
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 1059
+      y: 695
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: combo8
+    outer:
+      serializedVersion: 2
+      x: 1035
+      y: 642
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 1035
+      y: 642
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: combo_base
+    outer:
+      serializedVersion: 2
+      x: 649
+      y: 524
+      width: 344
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 524
+      width: 344
+      height: 59
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: combo2
+    outer:
+      serializedVersion: 2
+      x: 1034
+      y: 588
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 1034
+      y: 588
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: combo7
+    outer:
+      serializedVersion: 2
+      x: 994
+      y: 534
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 994
+      y: 534
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: combo_icon0
+    outer:
+      serializedVersion: 2
+      x: 511
+      y: 9
+      width: 97
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 511
+      y: 9
+      width: 97
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: combo0
+    outer:
+      serializedVersion: 2
+      x: 973
+      y: 328
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 973
+      y: 328
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: combo5
+    outer:
+      serializedVersion: 2
+      x: 1054
+      y: 534
+      width: 59
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 1054
+      y: 534
+      width: 59
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_pause_on
+    outer:
+      serializedVersion: 2
+      x: 1538
+      y: 373
+      width: 72
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 1538
+      y: 373
+      width: 72
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popnum2
+    outer:
+      serializedVersion: 2
+      x: 615
+      y: 114
+      width: 31
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 615
+      y: 114
+      width: 31
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popnum1
+    outer:
+      serializedVersion: 2
+      x: 615
+      y: 79
+      width: 31
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 615
+      y: 79
+      width: 31
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popnum9
+    outer:
+      serializedVersion: 2
+      x: 309
+      y: 5
+      width: 31
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 309
+      y: 5
+      width: 31
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popnum8
+    outer:
+      serializedVersion: 2
+      x: 615
+      y: 350
+      width: 31
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 615
+      y: 350
+      width: 31
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popnum7
+    outer:
+      serializedVersion: 2
+      x: 1080
+      y: 489
+      width: 31
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 1080
+      y: 489
+      width: 31
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popnum0
+    outer:
+      serializedVersion: 2
+      x: 615
+      y: 315
+      width: 31
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 615
+      y: 315
+      width: 31
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popnum3
+    outer:
+      serializedVersion: 2
+      x: 615
+      y: 280
+      width: 31
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 615
+      y: 280
+      width: 31
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popnum6
+    outer:
+      serializedVersion: 2
+      x: 615
+      y: 232
+      width: 31
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 615
+      y: 232
+      width: 31
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: eff_cross0
+    outer:
+      serializedVersion: 2
+      x: 131
+      y: 268
+      width: 234
+      height: 234
+    inner:
+      serializedVersion: 2
+      x: 131
+      y: 268
+      width: 234
+      height: 234
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popnum5
+    outer:
+      serializedVersion: 2
+      x: 615
+      y: 197
+      width: 31
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 615
+      y: 197
+      width: 31
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popnum4
+    outer:
+      serializedVersion: 2
+      x: 615
+      y: 162
+      width: 31
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 615
+      y: 162
+      width: 31
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: eff_bonus0
+    outer:
+      serializedVersion: 2
+      x: 131
+      y: 81
+      width: 185
+      height: 186
+    inner:
+      serializedVersion: 2
+      x: 131
+      y: 81
+      width: 185
+      height: 186
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bonus_base00
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 26
+      width: 130
+      height: 476
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 26
+      width: 128
+      height: 476
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop405
+    outer:
+      serializedVersion: 2
+      x: 1946
+      y: 577
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1946
+      y: 577
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop305
+    outer:
+      serializedVersion: 2
+      x: 1436
+      y: 485
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1436
+      y: 485
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop005
+    outer:
+      serializedVersion: 2
+      x: 1436
+      y: 393
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1436
+      y: 393
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop205
+    outer:
+      serializedVersion: 2
+      x: 1436
+      y: 301
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1436
+      y: 301
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: drop105
+    outer:
+      serializedVersion: 2
+      x: 1436
+      y: 209
+      width: 101
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1436
+      y: 209
+      width: 101
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song330
+    outer:
+      serializedVersion: 2
+      x: 1125
+      y: 853
+      width: 476
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1125
+      y: 853
+      width: 476
+      height: 52
+    rotated: 0
+    paddingLeft: 0.1722689
+    paddingRight: 0.1722689
+    paddingTop: 0.1153846
+    paddingBottom: 0.1153846
+  - name: song230
+    outer:
+      serializedVersion: 2
+      x: 649
+      y: 852
+      width: 475
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 852
+      width: 475
+      height: 53
+    rotated: 0
+    paddingLeft: 0.1726316
+    paddingRight: 0.1747368
+    paddingTop: 0.1132075
+    paddingBottom: 0.09433962
+  - name: game_mask
+    outer:
+      serializedVersion: 2
+      x: 317
+      y: 173
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 333
+      y: 189
+      width: 8
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

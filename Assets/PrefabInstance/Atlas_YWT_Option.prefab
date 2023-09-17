@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1350454767949142}
+  m_IsPrefabParent: 1
+--- !u!1 &1350454767949142
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4557402289959675}
+  - component: {fileID: 114626501322980550}
+  m_Layer: 0
+  m_Name: Atlas_YWT_Option
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4557402289959675
+Transform:
+  m_GameObject: {fileID: 1350454767949142}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114626501322980550
+MonoBehaviour:
+  m_GameObject: {fileID: 1350454767949142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19ab7038ea42d14bb3dfe30759bf6a0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: f79970352752b2a48806217ea8574249, type: 2}
+  sprites:
+  - name: txt_option1
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 408
+      width: 130
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 408
+      width: 130
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_option_a_on
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 339
+      width: 109
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 339
+      width: 109
+      height: 68
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_option_b_off
+    outer:
+      serializedVersion: 2
+      x: 110
+      y: 339
+      width: 109
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 110
+      y: 339
+      width: 109
+      height: 68
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_option0
+    outer:
+      serializedVersion: 2
+      x: 131
+      y: 409
+      width: 87
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 131
+      y: 409
+      width: 87
+      height: 59
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_option_a_off
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 270
+      width: 109
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 270
+      width: 109
+      height: 68
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_sub_option
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 469
+      width: 201
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 469
+      width: 201
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_option_b_on
+    outer:
+      serializedVersion: 2
+      x: 110
+      y: 270
+      width: 109
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 110
+      y: 270
+      width: 109
+      height: 68
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: win_option
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 181
+      width: 72
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 32
+      y: 181
+      width: 8
+      height: 88
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

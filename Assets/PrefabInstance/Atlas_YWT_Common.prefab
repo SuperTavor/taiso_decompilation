@@ -1,0 +1,462 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1644394016027979}
+  m_IsPrefabParent: 1
+--- !u!1 &1644394016027979
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4454790699222610}
+  - component: {fileID: 114385021305090865}
+  m_Layer: 0
+  m_Name: Atlas_YWT_Common
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4454790699222610
+Transform:
+  m_GameObject: {fileID: 1644394016027979}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114385021305090865
+MonoBehaviour:
+  m_GameObject: {fileID: 1644394016027979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19ab7038ea42d14bb3dfe30759bf6a0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: c724355773c938846aa156c73384b53e, type: 2}
+  sprites:
+  - name: btn00_off
+    outer:
+      serializedVersion: 2
+      x: 914
+      y: 783
+      width: 80
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 951
+      y: 815
+      width: 6
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn00_on
+    outer:
+      serializedVersion: 2
+      x: 299
+      y: 327
+      width: 80
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 359
+      width: 6
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_ok
+    outer:
+      serializedVersion: 2
+      x: 233
+      y: 601
+      width: 58
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 233
+      y: 601
+      width: 58
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: subtitle
+    outer:
+      serializedVersion: 2
+      x: 299
+      y: 551
+      width: 256
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 424
+      y: 551
+      width: 2
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: subwin
+    outer:
+      serializedVersion: 2
+      x: 914
+      y: 900
+      width: 92
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 957
+      y: 942
+      width: 6
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: song_base
+    outer:
+      serializedVersion: 2
+      x: 299
+      y: 714
+      width: 636
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 299
+      y: 714
+      width: 636
+      height: 48
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_back_title
+    outer:
+      serializedVersion: 2
+      x: 556
+      y: 568
+      width: 256
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 556
+      y: 568
+      width: 256
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_subwin_chr
+    outer:
+      serializedVersion: 2
+      x: 738
+      y: 608
+      width: 214
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 738
+      y: 608
+      width: 214
+      height: 105
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_back
+    outer:
+      serializedVersion: 2
+      x: 813
+      y: 569
+      width: 95
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 813
+      y: 569
+      width: 95
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_banner_on
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 763
+      width: 456
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 763
+      width: 456
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.03125
+    paddingBottom: 0
+  - name: btn_banner_off
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 892
+      width: 456
+      height: 132
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 892
+      width: 456
+      height: 132
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_subwin_newchr
+    outer:
+      serializedVersion: 2
+      x: 299
+      y: 604
+      width: 224
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 299
+      y: 604
+      width: 224
+      height: 109
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: clear_icon
+    outer:
+      serializedVersion: 2
+      x: 299
+      y: 436
+      width: 114
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 299
+      y: 436
+      width: 114
+      height: 114
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: taisou_8x8
+    outer:
+      serializedVersion: 2
+      x: 1007
+      y: 1016
+      width: 8
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 1008
+      y: 1017
+      width: 6
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_subwin_newmode
+    outer:
+      serializedVersion: 2
+      x: 524
+      y: 604
+      width: 213
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 524
+      y: 604
+      width: 213
+      height: 109
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_open_newmode
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 634
+      width: 298
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 634
+      width: 298
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_yn_quit
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 294
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 294
+      height: 93
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_banner_s_on
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 239
+      width: 232
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 239
+      width: 232
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.03125
+    paddingBottom: 0
+  - name: btn_banner_s_wf_off
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 368
+      width: 232
+      height: 132
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 368
+      width: 232
+      height: 132
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_banner_s_off
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 501
+      width: 232
+      height: 132
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 501
+      width: 232
+      height: 132
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_banner_s_wf_on
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 110
+      width: 232
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 110
+      width: 232
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.03125
+    paddingBottom: 0
+  - name: btn_banner_wf_on
+    outer:
+      serializedVersion: 2
+      x: 457
+      y: 763
+      width: 456
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 457
+      y: 763
+      width: 456
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.03125
+    paddingBottom: 0
+  - name: btn_banner_wf_off
+    outer:
+      serializedVersion: 2
+      x: 457
+      y: 892
+      width: 456
+      height: 132
+    inner:
+      serializedVersion: 2
+      x: 457
+      y: 892
+      width: 456
+      height: 132
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

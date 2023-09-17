@@ -1,0 +1,316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1127157518752411}
+  m_IsPrefabParent: 1
+--- !u!1 &1127157518752411
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4416734631450197}
+  - component: {fileID: 114650326498683644}
+  - component: {fileID: 114742312724279180}
+  m_Layer: 11
+  m_Name: DisappearEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4416734631450197
+Transform:
+  m_GameObject: {fileID: 1127157518752411}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4816791942314126}
+  - {fileID: 4720838050624580}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114650326498683644
+MonoBehaviour:
+  m_GameObject: {fileID: 1127157518752411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acad9ebf590dd1245a7cf89f71b59d93, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  showInPanelTool: 1
+  generateNormals: 0
+  depthPass: 0
+  widgetsAreStatic: 0
+  mAlpha: 1
+  mDebugInfo: 1
+  mClipping: 0
+  mClipRange: {x: 0, y: 0, z: 0, w: 0}
+  mClipSoftness: {x: 40, y: 40}
+--- !u!114 &114742312724279180
+MonoBehaviour:
+  m_GameObject: {fileID: 1127157518752411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa93b38bbfeae1946938d6980a23e56d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_tween_scl_eff: {fileID: 114006340160445117}
+  m_tween_alp_eff: {fileID: 114412275818466299}
+  m_tween_scl_fls: {fileID: 114290826908029969}
+  m_tween_alp_fls: {fileID: 114526957365635381}
+  m_sprite: {fileID: 114934605836148575}
+  m_obj_effect: {fileID: 1825470589407782}
+  m_obj_flash: {fileID: 1819093458392969}
+--- !u!1 &1825470589407782
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4816791942314126}
+  - component: {fileID: 114934605836148575}
+  - component: {fileID: 114006340160445117}
+  - component: {fileID: 114412275818466299}
+  m_Layer: 11
+  m_Name: effect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4816791942314126
+Transform:
+  m_GameObject: {fileID: 1825470589407782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalScale: {x: 103, y: 103, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4416734631450197}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114934605836148575
+MonoBehaviour:
+  m_GameObject: {fileID: 1825470589407782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c060c8f404020d943920ee21ca9be35e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 484a50e86cbe5f645a8cde1998665006, type: 2}
+  mTex: {fileID: 2800000, guid: 37f6ac414972abc42adc4c1917521120, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 11
+  mAtlas: {fileID: 114925189408840177, guid: 505a293f53746394ebaa9ec57571fdd2, type: 2}
+  mSpriteName: drop_eff_a0
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 1
+  mFillAmount: 1
+  mInvert: 0
+--- !u!114 &114006340160445117
+MonoBehaviour:
+  m_GameObject: {fileID: 1825470589407782}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c875b78400258744eadb3e40882601d6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  method: 0
+  style: 0
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: -0.001706484
+      inSlope: 3.216075
+      outSlope: 3.216075
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 0.35
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 1127157518752411}
+  callWhenFinished: EffectEnd
+  from: {x: 80, y: 80, z: 1}
+  to: {x: 150, y: 150, z: 1}
+  updateTable: 0
+--- !u!114 &114412275818466299
+MonoBehaviour:
+  m_GameObject: {fileID: 1825470589407782}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90025a41dec8ba488c93fe484a70fcb, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  method: 0
+  style: 0
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 0.35
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished:
+  from: 1
+  to: 0
+--- !u!1 &1819093458392969
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4720838050624580}
+  - component: {fileID: 114209066703569515}
+  - component: {fileID: 114290826908029969}
+  - component: {fileID: 114526957365635381}
+  m_Layer: 11
+  m_Name: flash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4720838050624580
+Transform:
+  m_GameObject: {fileID: 1819093458392969}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4416734631450197}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114209066703569515
+MonoBehaviour:
+  m_GameObject: {fileID: 1819093458392969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c060c8f404020d943920ee21ca9be35e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 484a50e86cbe5f645a8cde1998665006, type: 2}
+  mTex: {fileID: 2800000, guid: 37f6ac414972abc42adc4c1917521120, type: 3}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 10
+  mAtlas: {fileID: 114925189408840177, guid: 505a293f53746394ebaa9ec57571fdd2, type: 2}
+  mSpriteName: drop_eff_b0
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+--- !u!114 &114290826908029969
+MonoBehaviour:
+  m_GameObject: {fileID: 1819093458392969}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c875b78400258744eadb3e40882601d6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  method: 0
+  style: 0
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: -2.732575
+      outSlope: -2.732575
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.3403244
+      value: -0.4899129
+      inSlope: 0.03855675
+      outSlope: 0.03855675
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 3.723336
+      outSlope: 3.723336
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 0.25
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished:
+  from: {x: 90, y: 95, z: 1}
+  to: {x: 30, y: 32, z: 1}
+  updateTable: 0
+--- !u!114 &114526957365635381
+MonoBehaviour:
+  m_GameObject: {fileID: 1819093458392969}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90025a41dec8ba488c93fe484a70fcb, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  method: 0
+  style: 0
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 0.25
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished:
+  from: 1
+  to: 0
